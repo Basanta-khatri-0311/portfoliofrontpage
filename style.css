@@ -65,10 +65,9 @@ nav a{
 
 .about{
   width: 100%;
-  height: 85%;
+  height: 82%;
   display: flex;
   padding: 70px;
-  /* align-items: center; */
   justify-content: space-between;
 }
 
@@ -80,12 +79,17 @@ nav a{
 
 .about .part2 h4{
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .icons i{
-  font-size: 40px;
-  border-radius: 50%;
+  font-size: 30px;
+  background-color: #000;
+  color: white;
+  border-radius: 50px;
+  padding: 15px;
+  margin-right: 10px;
 }
+
 .about .part2{
   display: flex;
   flex-direction: column;
@@ -93,4 +97,66 @@ nav a{
   width: 35%;
   padding: 0 60px;
   border-left: 2px solid #000;
+}
+
+.work{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  padding: 70px;
+  border-top: 2px solid #000;
+}
+
+.work-1{
+  padding-right: 60px;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-right: 2px solid #000;
+}
+.work-1 i,h2{
+  font-weight: 550;
+  font-size: 40px;
+}
+.work-2{
+  width: 65%;
+  height: 100%;
+  padding: 3px 40px;
+}
+
+.work2-part{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.work2-part .works{
+  width: 50%;
+  height: 100%;
+}
+.work2-part:nth-child(1){
+  border-bottom: 2px solid #000;
+  
+}
+
+.work2-part .works:nth-child(1){
+  border-right: 2px solid #000;
+}
+
+.work2-part .works:nth-child(2){
+  padding-left: 60px;
+}
+
+.work2-part .works h2{
+  font-size: 40px;
+  padding-bottom: 18px;
+}
+
+.work2-part .works p{
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  opacity: 0.6;
 }
